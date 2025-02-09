@@ -1,0 +1,8 @@
+id,name,description,examples
+1,Strength Training,Resistance-based workouts with weights,"Bench Press, Deadlift, Squats"
+2,Cardio,Workouts focused on endurance & heart rate,"Running, Cycling, Rowing"
+3,Bodyweight,Exercises using body weight,"Push-ups, Pull-ups, Burpees"
+4,Stretching_Mobility,Flexibility & joint mobility movements,"Yoga, Static Stretching, Pilates, Tai Chi"
+5,Sports_Training,Sport-related workouts,"Basketball Drills, Pickleball Footwork"
+6,Combat_Sports,Contact sport that usually involves one-on-one combat,"MMA, Muay Thai, Jiu-Jitsu, Wrestling, Boxing, Kickboxing, Taekwondo, Judo, Kung Fu, Wing Chung"
+7,Other,Anything not categorized as above, Axe Throwing
