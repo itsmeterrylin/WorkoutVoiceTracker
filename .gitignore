@@ -4,22 +4,6 @@
 *.lock
 Thumbs.db
 
-# Xcode user-specific files
-xcuserdata/
-xcuserdata/*
-*.xcscmblueprint
-*.xcscheme
-*.xcschememanagement.plist
-
-# Build artifacts
-build/
-DerivedData/
-Pods/# macOS system files
-.DS_Store
-*.swp
-*.lock
-Thumbs.db
-
 # Xcode user-specific files (prevents local dev settings from being committed)
 xcuserdata/
 xcuserdata/*
@@ -60,20 +44,4 @@ Carthage/Checkouts
 Carthage/Build
 
 # Git-related files
-.gitignorexy# macOS system files
-.DS_Store
-*.swp
-*.lock
-Thumbs.db
-
-# Xcode user-specific files
-xcuserdata/
-xcuserdata/*
-*.xcscmblueprint
-*.xcscheme
-*.xcschememanagement.plist
-
-# Build artifacts
-build/
-DerivedData/
-Pods/
+.gitignore
