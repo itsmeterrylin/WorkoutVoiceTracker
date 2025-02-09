@@ -1,0 +1,79 @@
+# macOS system files
+.DS_Store
+*.swp
+*.lock
+Thumbs.db
+
+# Xcode user-specific files
+xcuserdata/
+xcuserdata/*
+*.xcscmblueprint
+*.xcscheme
+*.xcschememanagement.plist
+
+# Build artifacts
+build/
+DerivedData/
+Pods/# macOS system files
+.DS_Store
+*.swp
+*.lock
+Thumbs.db
+
+# Xcode user-specific files (prevents local dev settings from being committed)
+xcuserdata/
+xcuserdata/*
+*.xcscmblueprint
+*.xcscheme
+*.xcschememanagement.plist
+
+# Build artifacts
+build/
+DerivedData/
+Pods/
+
+# iCloud & Core Data Files (Prevents iCloud sync data from being committed)
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.ckdb
+*.ckasset
+*.ckrecord
+
+# API Keys & Secrets (Prevents accidental commits of sensitive keys)
+Secrets/
+config.json
+.env
+*.xcconfig
+GoogleService-Info.plist
+Firebase/GoogleService-Info.plist
+fastlane/.env
+fastlane/.env.default
+
+# Swift Package Manager
+/.swiftpm
+Package.resolved
+
+# Carthage
+Carthage/
+Carthage/Checkouts
+Carthage/Build
+
+# Git-related files
+.gitignorexy# macOS system files
+.DS_Store
+*.swp
+*.lock
+Thumbs.db
+
+# Xcode user-specific files
+xcuserdata/
+xcuserdata/*
+*.xcscmblueprint
+*.xcscheme
+*.xcschememanagement.plist
+
+# Build artifacts
+build/
+DerivedData/
+Pods/
