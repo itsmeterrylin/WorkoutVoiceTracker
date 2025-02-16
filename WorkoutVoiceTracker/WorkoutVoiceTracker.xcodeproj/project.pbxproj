@@ -161,12 +161,23 @@
 		A284AD032D558AC100F80B09 /* WorkoutVoiceTrackerWatchOS Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WorkoutVoiceTrackerWatchOS Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A284AD122D558AC200F80B09 /* WorkoutVoiceTrackerWatchOS Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WorkoutVoiceTrackerWatchOS Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A284AD1C2D558AC300F80B09 /* WorkoutVoiceTrackerWatchOS Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WorkoutVoiceTrackerWatchOS Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A29608C02D585AE60001BBA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A29608D32D5917610001BBA4 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		A2E62BF72D580622001C23EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2E62C012D581205001C23EA /* WorkoutVoiceTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = WorkoutVoiceTracker.entitlements; path = WorkoutVoiceTracker/WorkoutVoiceTracker.entitlements; sourceTree = "<group>"; };
 		A2E62C032D581397001C23EA /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS11.1.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
 		A2E62C0B2D584969001C23EA /* WCSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WCSessionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A29608E02D5942870001BBA4 /* Exceptions for "WorkoutVoiceTrackerWatchOS Watch App" folder in "WorkoutVoiceTrackerWatchOS Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Info-WatchOS.plist",
+			);
+			target = A284AD022D558AC100F80B09 /* WorkoutVoiceTrackerWatchOS Watch App */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		A284AC822D543E3700F80B09 /* WorkoutVoiceTrackeriOS */ = {
@@ -176,6 +187,9 @@
 		};
 		A284AD042D558AC100F80B09 /* WorkoutVoiceTrackerWatchOS Watch App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A29608E02D5942870001BBA4 /* Exceptions for "WorkoutVoiceTrackerWatchOS Watch App" folder in "WorkoutVoiceTrackerWatchOS Watch App" target */,
+			);
 			path = "WorkoutVoiceTrackerWatchOS Watch App";
 			sourceTree = "<group>";
 		};
@@ -283,6 +297,7 @@
 				A284AC752D53074100F80B09 /* ContentView.swift */,
 				A284AB832D4EA06900F80B09 /* WorkoutVoiceTrackerApp.swift */,
 				A284AB8C2D4EA06A00F80B09 /* PersistenceController.swift */,
+				A29608C02D585AE60001BBA4 /* Info.plist */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -1178,6 +1193,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Copper;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Recording is used to log exercises upon start/stop.";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = WorkoutVoiceTracker;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1211,6 +1227,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Copper;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Recording is used to log exercises upon start/stop.";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = WorkoutVoiceTracker;
 				LD_RUNPATH_SEARCH_PATHS = (
